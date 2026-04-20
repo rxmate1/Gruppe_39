@@ -1,3 +1,5 @@
+import Marius from "src/components";
+
 function App () {
   return (
     <>
@@ -6,6 +8,7 @@ function App () {
     </header>
 
     <Main>
+      <Marius />
     </Main>
     
     </>
