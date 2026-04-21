@@ -1,4 +1,4 @@
-import Marius from "src/components";
+import Marius from "./components/Marius"
 
 function App () {
   return (
@@ -7,9 +7,9 @@ function App () {
       Gruppe 39
     </header>
 
-    <Main>
+    <main>
       <Marius />
-    </Main>
+    </main>
     
     </>
   )
