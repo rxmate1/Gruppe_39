@@ -1,15 +1,17 @@
+import JamesCard from "./components/JamesCard";
+
 function App () {
   return (
     <>
-    <header>
-      Gruppe 39
-    </header>
+      <header>
+        Gruppe 39
+      </header>
 
-    <Main>
-    </Main>
-    
+      <main>
+        <JamesCard />
+      </main>
     </>
   )
 }
 
-export default App
+export default App;
