@@ -1,5 +1,5 @@
 import adrianImage from '../assets/Adrian.webp'
-import '../components/Adrian.css'
+import "../css/Adrian.css"
 
 function Adrian () {
 	return (

@@ -4,18 +4,14 @@ import "../css/Marius.css"
 export default function Marius () {
     return (
         <>
-        <header>
-            <h2>Marius Walberg Larsen</h2>
-        </header>
-
-        <main>
+        <article>
             <figure>
                 <img src={bilde}
                 alt="Bilde av meg på bussen til byen"
                 />
             <figcaption>Student ved høgskolen i Østfold</figcaption>
             </figure>
-
+            <h2>Marius Walberg Larsen</h2>
             <section>
                 <p>Epost:</p>
                 <a href="mailto:mariuwl@hiof.no">
@@ -24,7 +20,8 @@ export default function Marius () {
 
                 <p>Informatikk student</p>
             </section>
-        </main>
+
+        </article>
         
         </>
     )

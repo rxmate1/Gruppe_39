@@ -1,6 +1,8 @@
 import Marius from "./components/Marius"
 import Adrian from './components/Adrian'
 import JamesCard from "./components/JamesCard";
+import Arbeidskrav from "./components/Arbeidskrav";
+import "./App.css"
 
 function App () {
   return (
@@ -9,13 +11,16 @@ function App () {
         Gruppe 39
       </header>
 
-    <main>
-      <Marius />
-    </main>
-    
       <main>
-        <Adrian />
-        <JamesCard />
+        <section className="kort">
+          <Marius />
+          <Adrian />
+          <JamesCard />
+        </section>
+
+        <section className="arbeidskrav">
+          <Arbeidskrav />
+        </section>
       </main>
     </>
   )

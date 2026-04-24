@@ -1,4 +1,4 @@
-import "./JamesCard.css";
+import "../css/JamesCard.css"
 import bilde from "../assets/student-illustrasjon.png";
 
 function JamesCard() {
