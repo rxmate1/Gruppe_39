@@ -1,4 +1,5 @@
 import Adrian from './components/Adrian'
+import JamesCard from "./components/JamesCard";
 
 function App () {
   return (
@@ -9,9 +10,10 @@ function App () {
 
       <main>
         <Adrian />
+        <JamesCard />
       </main>
     </>
   )
 }
 
-export default App
+export default App;
