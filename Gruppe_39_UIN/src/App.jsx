@@ -1,3 +1,4 @@
+import Adrian from './components/Adrian'
 import JamesCard from "./components/JamesCard";
 
 function App () {
@@ -8,6 +9,7 @@ function App () {
       </header>
 
       <main>
+        <Adrian />
         <JamesCard />
       </main>
     </>
