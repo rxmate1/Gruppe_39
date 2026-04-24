@@ -1,13 +1,15 @@
+import Adrian from './components/Adrian'
+
 function App () {
   return (
     <>
-    <header>
-      Gruppe 39
-    </header>
+      <header>
+        Gruppe 39
+      </header>
 
-    <Main>
-    </Main>
-    
+      <main>
+        <Adrian />
+      </main>
     </>
   )
 }
